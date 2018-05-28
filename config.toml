@@ -52,7 +52,7 @@ github                 = "//github.com/lockwooda"
 lang                   = "en"
 linkedin               = "//linkedin.com/in/alex-lockwood-6a4137163/"
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
-selfintro              = "Hi! I'm Alex Lockwood. I'm an Undergraduate Computer Scientist at the University of Southampton. I enjoy coding, mathematics and problem solving."                            # appears in the site header when set to a non-empty string
+selfintro              = "Computer Scientist Undergraduate that enjoys coding, mathematics and problem solving."                            # appears in the site header when set to a non-empty string
 #twitter                = "//twitter.com/you"
 #mastodon               = "//example.com/@you"
 
