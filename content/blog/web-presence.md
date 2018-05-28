@@ -1,7 +1,7 @@
 +++
 title = "Maintaining a Web Presence"
 date = "2018-05-28T21:37:05+01:00"
-draft = true
+draft = false
 +++
 Whilst trying to write this, I was struggling to think about what I should include in my first article on my new website.
 Should I be truthful and speak frankly about the reasons behind making this website, or should I try to justify it through other means?
