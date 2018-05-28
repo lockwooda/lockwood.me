@@ -1,4 +1,4 @@
-baseurl             = "http://lockwood.me/"
+baseurl             = "https://lockwood.me/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
