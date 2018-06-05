@@ -29,10 +29,10 @@ identifier             = "about"
 url                    = "/about/"
 
 [[menu.main]]
-name                   = "Code"
+name                   = "Projects"
 weight                 = -100
-identifier             = "code"
-url                    = "/code/"
+identifier             = "projects"
+url                    = "/projects/"
 
 [params]
 include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
@@ -43,7 +43,7 @@ cachebuster            = true                          # add the current unix ti
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Computer Scientist at University of Southampton"
-email                  = "you@example.space"
+email                  = "alex@lockwood.me"
 extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/leaf.ico"
 github                 = "//github.com/lockwooda"
@@ -51,7 +51,7 @@ github                 = "//github.com/lockwooda"
 #px500                  = "//500px.com/username"
 lang                   = "en"
 linkedin               = "//linkedin.com/in/alex-lockwood-6a4137163/"
-noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+noshowreadtime         = true             # if true, don't show "<x> minutes read" in posts
 selfintro              = "Computer Scientist Undergraduate that enjoys coding, mathematics and problem solving."                            # appears in the site header when set to a non-empty string
 #twitter                = "//twitter.com/you"
 #mastodon               = "//example.com/@you"
