@@ -1,9 +1,8 @@
 +++
 title = "My First Year of University"
 date = "2018-06-10T13:06:46+01:00"
-draft = true
+draft = false
 +++
-Begin by stating where you went, what you studied, and explaining that these are your thoughts and feelings about the course, accommodation and other issues.
 
 As some of you may be aware, I am currently studying Computer Science at University of Southampton.
 I recently finished my first year of the course and decided to publish my thoughts and feelings as a way to reflect upon what I can improve on for next year.
