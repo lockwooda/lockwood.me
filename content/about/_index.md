@@ -11,4 +11,4 @@ You can find my prior coding work, including some extra-curricular university pr
 Outside of my core academic work, I am involved in numerous student societies at university, including (but not limited to) [SourceBots](https://sourcebots.co.uk), [Cyber Security Society](https://www.sucss.org/) and the [LGBT Society](https://lgbt.susu.org/).
 You can find more about what I have done with student societies and other work on the [Projects](../projects/) page.
 
-If you wish to contact me, you can do so through [alex@lockwood.me](mailto:alex@lockwood.me). Furthermore, if you wish to contact me through more secure means you may also use [GPG keys](../gpg/) with me.
+If you wish to contact me, you can do so through [alex@lockwood.me](mailto:alex@lockwood.me). Furthermore, if you wish to contact me through more secure means you may also use [PGP keys](../pgp/) with me.
