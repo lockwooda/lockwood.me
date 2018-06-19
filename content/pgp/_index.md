@@ -1,15 +1,15 @@
 +++
-title = "GPG Keys"
+title = "PGP Key"
 date = "2018-06-05T14:37:02+01:00"
 draft = false
 +++
-If you wish to be more secure with your communications with me, you can use my GPG key.
+If you wish to be more secure with your communications with me, you can use my PGP key.
 
 My public key is available on [my Keybase account](https://keybase.io/lockwooda), where I have verified the authenticity of various accounts on specific websites.
 
-The long fingerprint of my GPG public key is as follows: `8C572463EA1542DF39BF6F53B91D629AC404253F`
+The long fingerprint of my PGP public key is as follows: `8C572463EA1542DF39BF6F53B91D629AC404253F`
 
-My full public GPG key is as follows: 
+My full public PGP key is as follows: 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
