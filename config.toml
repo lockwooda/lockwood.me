@@ -53,7 +53,7 @@ lang                   = "en"
 linkedin               = "//linkedin.com/in/alex-lockwood-6a4137163/"
 noshowreadtime         = true             # if true, don't show "<x> minutes read" in posts
 selfintro              = "Computer Scientist Undergraduate that enjoys coding, mathematics and problem solving."                            # appears in the site header when set to a non-empty string
-#twitter                = "//twitter.com/you"
+twitter                = "//twitter.com/TheAlexLockwood"
 #mastodon               = "//example.com/@you"
 
 highlightjs            = true
