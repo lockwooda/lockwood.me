@@ -1,7 +1,7 @@
 ---
 title: "Smallpeice 2018"
 date: 2018-08-17T16:59:51+01:00
-draft: true
+draft: false
 ---
 
 Once again, another Smallpeice summer school has been and gone. 
