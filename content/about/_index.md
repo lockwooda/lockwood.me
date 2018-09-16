@@ -3,7 +3,7 @@ title = "About"
 date = "2018-05-28T20:52:14+01:00"
 draft = false
 +++
-I'm Alex Lockwood. I am a first year Computer Scientist, studying at [University of Southampton](https://www.ecs.soton.ac.uk/). I have had a keen interest in Computer Science for the majority of my academic life, but have only been pursuing it for the past couple of years.
+I'm Alex Lockwood. I am a second-year Computer Scientist, studying at [University of Southampton](https://www.ecs.soton.ac.uk/). I have had a keen interest in Computer Science for the majority of my academic life, but have only been pursuing it for the past couple of years.
 
 Primarily my experience lies in procedural object-oriented languages, such as Java, but I also have experience in other languages such as C, SQL and [Pawn](https://github.com/compuphase/pawn).
 You can find my prior coding work, including some extra-curricular university projects, on my [GitHub](https://github.com/lockwooda/).
