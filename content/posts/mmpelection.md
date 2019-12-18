@@ -1,7 +1,7 @@
 ---
 title: "2019 UK General Election and PR"
 date: 2019-12-18T12:04:31Z
-draft: true
+draft: false
 math: true
 ---
 
