@@ -17,17 +17,20 @@ In the most recent general election, the Liberal Democrats, Plaid Cymru and UKIP
 Labour made no commitment to voting systems in their manifestos, but did commit to a Constitutional Convention to look into the 'renewal of ... Parliament' through the use of citizens' assemblies.
 On the contrary, the Conservatives made a direct commitment to uphold First Past the Post in their manifesto.
 
+Of the parties that did make promises for proportional representation, they did not make them one of their big manifesto promises. I'm not even going to touch on why they didn't, because I imagine at this point it is pretty obvious why.
+
 # Mixed-member Proportional
 
-In one of my previous blog posts, I discussed about the Additional Member System (AMS), an electoral system used in Scottish parliamentary, Welsh and London assembly elections. It is a variant of an older system, mixed-member proportional representation, or MMP. It was in essence adopted by what was then West Germany in 1957 and is still used, albeit in a modified form, to this day. It is known for its complexity, with the need to balance proportional elections with local representation and representation of minorities at state level.
+In one of my previous blog posts, I discussed about the Additional Member System (AMS), an electoral system used in Scottish parliamentary, Welsh and London assembly elections. 
+It is a variant of an older system, mixed-member proportional representation, or MMP. It was in essence adopted by what was then West Germany in 1957 and is still used, albeit in a modified form, to this day. It is known for its complexity, with the need to balance proportional elections with local representation and representation of minorities at state level.
 
 MMP requires voters to cast two votes; one vote is for their local representative, their 'first vote', and the other vote is for their favourite party, the 'second vote'. To the keen eyed, yes, this is also how voting in AMS works. However, the difference between the systems is in how the votes are handled once they are all counted.
 
 AMS and MMP both use proportional representation to balance out the results of the constituencies (the first vote) to match the party vote (the second vote) as much as possible. As a result, members of Parliament can be elected in two ways; either as a local representative or as a 'list' member.
 
-As a result of this, political parties are baked into the fabric of the electoral system; this is in contrast to FPTP, where parties could be deemed 'unnecessary' and the system would still function with independent candidates. As with FPTP, the candidate with the plurality of votes will be designated the elected member for the constituency. These play an important role in the German MMP system.
+As a result of this, political parties are baked into the fabric of the electoral system; this is in contrast to FPTP, where parties could be deemed 'unnecessary' and the system would still function with independent candidates.
 
-Put simply, MMP works as follows:
+If you don't want the fancy details, here is how MMP roughly works:
 - Elect MPs to constituencies based on plurality of the vote in a constituency
     - Essentially, this is First Past the Post
 - Determine how many MPs a party should have at a regional level from second votes
@@ -38,28 +41,40 @@ Put simply, MMP works as follows:
 
 ## Details
 
-The allocation of 'second vote' seats in Germany happens at a state level rather than at a federal level, although parties require 5% of the second votes nationally or three constituencies nationally to be allocated any of these seats. If a party that does not make the second vote threshold or an independent wins a seat, this seat is considered 'lost' and not counted in the number of seats in the state. Successful votes for a candidate that did not qualify for second vote will be discarded.
+As with FPTP, the candidate with the plurality of votes in a constituency (having the most votes of any candidate) will be designated the elected member for the constituency. These play an important role in the German MMP system.
+
+The allocation of 'second vote' seats in Germany happens at a state level rather than at a federal level, although parties require 5% of the second votes nationally or three constituencies nationally to be allocated any of these seats. 
+If a party that does not make the second vote threshold or an independent wins a seat, this seat is considered 'lost' and not counted in the number of seats in the state. Successful votes for a candidate that did not qualify for second vote will be discarded.
+
+For the sake of converting FPTP to MMP, I will ignore the 5% of the federal second vote requirement. This is down to the complexities of British politics, having nationalist parties in Scotland and Wales and an essentially separate political system in Northern Ireland.
 
 The seats are allocated using the second votes through the Sainte-Laguë system, which is essentially the D'Hondt system mention in the previous blog post but with a different formula:
 $$ \text{quot} = \frac{V}{2s + 1} $$
 
-All the seats in a state, that being the 'constituency' seats and the 'list' seats, are allocated to the parties based on the second votes in the state.
+All the seats in a state, that being the constituency seats and the list seats, are allocated to the parties based on the second votes in the state using the Sainte-Laguë system. This determines how many seats a party are entitled to a state level; unsurprisingly, this is known as the *entitlement*.
 
-In Germany, there is the concept of 'Überhangmandate', which translates directly to overhang seats. Overhang seats arise when a party in a state win more seats than they are allocated based on the second votes. For example, a party may win 11 constituencies in a state but the second vote in the state only entitles them to 8. Electoral law in Germany stipulates that all representatives elected from constituencies must be elected representatives of their party. As a result, the party will be entitled to 11 seats in the state, not 8.
+In Germany, there is the concept of '**Überhangmandate**', which translates to overhang seats. Overhang seats happen when a party wins more constituencies in a state
+than seats that they have from their entitlement.
 
-All the seats that a party has won from all the states are summed together to calculate their minimum entitled seats in the parliament. However, there is an additional step. Electoral law was changed in 2013 to add an additional step, to give parties 'Ausgleichsmandate', or compensation seats. These seats are given to make up for the fact that other parties may have a large number of overhang seats, meaning that the parliament won't be as proportional.
+For example, a party may win 11 constituencies in a state but their second votes in the state only entitles them to 8. There are 3 overhang seats in this state for the party. If a person is elected from a constituency, they (obviously) must be given their seat. As a result, the party will get their state entitlement increased to 11 and the number of representatives in parliament is increased by 3.
 
-The process to calculate the number of compensation seats to be given to each party is slightly complex. Firstly, calculate for each party the number of second votes per seat, that is
+All the seats that a party has won from all the states are summed together to calculate their *minimum entitlement* seats in the parliament.
+
+There is still a few more steps to go to get the final number of MPs. Electoral law had to be changed in 2013, due to the fact that overhang seats can leave the parliament unproportional as it no longer matched the second votes.
+
+Now, '**ausgleichsmandate**', or compensation seats, are given to make up to other parties for the fact that parties are given the overhang seats. These seats are added to make it as proportional as possible to the total second votes across the country.
+
+The process to calculate the number of compensation seats to be given to each party is slightly complex. Firstly, calculate for each party the *number of second votes per seat*, that is
 $$\frac{\text{Second Votes}}{\text{Minimum Seats } - 0.5}$$
-Once all of these have been calculated for parties that made the 2nd vote threshold, we then take the one with the smallest value and make that the 'federal divisor'.
+Once all of these have been calculated for parties that made the second vote threshold, we then take the one with the smallest value and make that the 'federal divisor'.
 $$ \text{Federal Divisor} = \text{min }_\text{all parties}\left(\frac{\text{Second Votes}}{\text{Minimum Seats } - 0.5}\right) $$
 We then calculate for each party how many seats they would have attained, if the federal divisor was the number of second votes per seat.
 
 $$ \text{Entitled Seats }\_\text{Party A} = \frac{\text{Second Votes }_\text{Party A}}{\text{Federal Divisor}} $$
 
-We use conventional rounding rules to handle decimal points. Therefore, we can determine the number of compensation seats by taking the minimum number of seats away from the new value.
+If decimal points come out of this, these are rounded to the nearest integer. Therefore, we can determine the number of compensation seats by taking the minimum number of seats away from the new value.
 
-We now have the number of seats each party is entitled to in the parliament. These seats are then allocated to each state using the Sainte-Laguë system, with constituency MPs being first allocated and then list MPs being allocated afterwards.
+We now have the number of seats each party is entitled to in the parliament. Parties then distribute these seats to the states using the Sainte-Laguë system and their second votes in each state.
 
 # 2019 UK General Election under MMP
 
@@ -102,11 +117,16 @@ Therefore, the results come out as follows:
 |SDLP|3|0.3%|0.4%|
 |UUP|3|0.3%|0.4%|
 
-Using these results, we can calculate the Gallagher index for disproportionality under the AMS election.
+Proportionally, this looks like an utterly superb result. With a maximum difference of 0.3% between the percentage of votes and percentage of seats, you can't do much better than that.
+
+To empirically measure the proportionality, I'll use the Gallagher index that I brought up in my previous blogpost. You essentially check the difference between the percentage of seats and percentage of votes.
+
+$$ Lsq = \sqrt{\frac{1}{2}\sum\limits_{i=1}^n \left(V_i - S_i\right)^2} $$
+
 
 |Party|% of votes|% of seats|Difference|Sq. Dif|
 |-----|----------|----------|----------|-------|
-|Conservative|43.6%|43.9%|0.2%|0.04|
+|Conservative|43.6%|43.9%|0.3%|0.09|
 |Labour|32.1%|32.4%|0.3%|0.09|
 |Liberal Democrat|11.6%|11.6%|0%|0|
 |SNP|3.9%|4%|0.1%|0.01|
@@ -119,7 +139,7 @@ Using these results, we can calculate the Gallagher index for disproportionality
 |SDLP|0.3%|0.4%|0.1%|0.01|
 |UUP|0.3%|0.4%|0.1%|0.01|
 
-Summing the square differences gives us a value of 0.18. Halving this and square rooting it, to give the Gallagher index, gives **an index of 0.3**. In other words, this system is extraordinarily proportional!
+Summing the square differences up, halving the result and the square rooting it gives us **an index of 0.3464**.
 
 ## Sources
 
