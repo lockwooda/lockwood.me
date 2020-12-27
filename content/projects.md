@@ -1,10 +1,14 @@
 +++
 title = "Projects"
-date = "2018-06-05T14:52:37+01:00"
+date = "2020-12-27"
 draft = false
 +++
-Over the past year I have been involved in numerous projects in university. Some of these have been placed here for your viewing pleasure.
-#### SourceBots
-I have been an active volunteer and code base and document base contributor to [SourceBots](https://sourcebots.co.uk/), which is a student-led organisation that creates and hosts robotics competitions for younger individuals.
-#### Cyber Security Society (SUCSS)
-Being an active participant within SUCSS over the past year, I had the privilege of representing University of Southampton at a national level at [Inter-ACE 2018](https://inter-ace.org/), a cyber-security competition hosted by University of Cambridge. It was sponsored by international companies such as Facebook and Context, as well as being supported by the National Cyber Security Centre.
+Over the past years, I have been involved in numerous projects.
+## Electronics and Computer Science School President
+I was the School President of the School of Electronics and Computer Science during the 2020/21 academic year. Prior to this, I was a course representative for two years. I was awarded "Best Impact" in the Students' Union's Academic Awards for my work as a course representative in 2019/20.
+
+## Southampton University Cyber Security Society (SUCSS)
+I was the president of Southampton University Cyber Security Society (SUCSS) in a caretaker capacity. Being an active participant within SUCSS, I had the privilege of representing University of Southampton at a national level at Inter-ACE 2018, a cyber-security competition hosted by University of Cambridge.
+
+## Southampton University LGBTQ+ Society
+I was on the committee of the LGBTQ+ Society for two years. I partook as their technical officer and as a member without portfolio.
