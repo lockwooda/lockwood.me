@@ -1,13 +1,14 @@
 [build]
-    publish = "public/"
-    command = "./scripts/build.sh"
+publish = "public/"
+command = "./scripts/build.sh"
 
 [context.production.environment]
-    HUGO_VERSION = "0.61.0"
-    HUGO_ENV = "production"
+HUGO_VERSION = "0.79.1"
+HUGO_ENV = "production"
 
 [context.deploy-preview.environment]
-    HUGO_VERSION = "0.61.0"
+HUGO_VERSION = "0.79.1"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.61.0"
+HUGO_VERSION = "0.79.1"
+
